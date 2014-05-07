@@ -29,13 +29,13 @@ file{'/etc/nginx/sites-available/default':
   }
 
 # 2c. myconfig_2c /etc/nginx/conf.d/puptest.conf 
-file{'/etc/nginx/conf.d/puptest.conf':
-   ensure => file,
-   mode   => 0755,
-   owner  => "root",
-   group  => "root",
-   source => "/home/data/modules/nginx_6/files/puptest.conf"
-  }
+#file{'/etc/nginx/conf.d/puptest.conf':
+#   ensure => file,
+#   mode   => 0755,
+#   owner  => "root",
+#   group  => "root",
+#   source => "/home/data/modules/nginx_6/files/puptest.conf"
+#  }
 
 # 3. Copy webpage using wget from puppetlabs GIT-Repo then source the file to the proper location
 exec{'cp_webpage':
