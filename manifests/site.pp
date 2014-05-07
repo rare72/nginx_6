@@ -1,6 +1,6 @@
 $timestamp = generate('/bin/date', '+%Y%m%d-%H%M')
-file {"/tmp/pappy_nginx5_${timestamp}":
-   content => "The Puppet NGINX_5 module was executed.",
+file {"/tmp/pappy_nginx6_${timestamp}":
+   content => "The Puppet NGINX_6 module was executed.",
    ensure => 'file',
  }
 
