@@ -26,6 +26,7 @@ file{'/etc/nginx/sites-available/default':
    owner  => "root",
    group  => "root",
    source => "/home/data/modules/nginx_6/files/default"
+ }
 
 # 2c. myconfig_2c /etc/nginx/conf.d/puptest.conf 
 file{'/etc/nginx/conf.d/puptest.conf':
