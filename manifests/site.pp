@@ -56,4 +56,3 @@ service { 'nginx':
    hasrestart => true,
    provider => "debian",
   }
-}
